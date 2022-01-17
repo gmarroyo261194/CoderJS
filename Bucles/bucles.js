@@ -1,3 +1,5 @@
+//BUCLE FOR PARA LA SUMA DE LOS NUMEROS IMPARES, SOLICITANDO EL LIMITE SUPERIOR AL USUARIO
+
 let limite = prompt("Ingrese el maximo numero impar del bucle")
 let suma = 0
 
@@ -21,6 +23,8 @@ if(isNaN(parseInt(limite)))
         console.log("El resultado de la suma de numeros impares es: " + suma)
     }
 }
+
+//BUCLE DO WHILE PARA EL CONTROL DE USUARIO Y PASSWORD
 
 let usuario = ""
 let password = ""
